@@ -1,0 +1,15 @@
+version: '3.1'
+
+services:
+  
+  backend:
+    image: eduardoporto/backend-prova:latest
+    ports:
+      - "8000:8000"
+
+  frontend:
+    image: eduardoporto/front-prova:latest
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend

@@ -1,3 +1,4 @@
+// Não alterei o servidor pq defini no meu docker file pro backend continuar rodando na porta 8000
 SERVIDOR = 'http://localhost:8000';
 
 async function criarUsuario() {
